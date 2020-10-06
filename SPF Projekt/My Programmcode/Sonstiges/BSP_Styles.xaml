@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Styles">
+    
+    <!--Für globale Styles siehe App.xaml-->
+
+    <!--Styles auf Page Level-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <!--Impliziter Style-->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Green" />
+                <Setter Property="Text" Value="Impliziter Style"/>
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            
+            <!--Expliziter Style-->
+            <Style x:Key="kleinRot" TargetType="Label">
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="Text" Value="Expliziter Style"/>
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+
+            <!--Style Vererbung-->
+            <Style x:Key="zentriertKleinRot" TargetType="Label" BasedOn="{StaticResource kleinRot}" >
+                <Setter Property="VerticalOptions" Value ="CenterAndExpand" />
+                <Setter Property="HorizontalOptions" Value ="CenterAndExpand" />
+                <Setter Property="Text" Value="Vererbter Style"/>
+            </Style>
+
+            <!--Vererbung vom dynamischen Style-->
+            <Style x:Key="dynamischVererbt" BaseResourceKey="dynamisch" TargetType="Label">
+                <Setter Property="TextColor" Value="Aqua"/>
+                <Setter Property="Text" Value="Vererbter Style"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightGray" Padding="5" Margin="0,30,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Style auf Control Level-->
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="orangeTitle" TargetType="Label">
+                        <Setter Property="FontSize" Value="Medium" />
+                        <Setter Property="BackgroundColor" Value="White" />
+                        <Setter Property="TextColor" Value="Orange" />
+                        <Setter Property="Text" Value="Control Level Style" />
+                    </Style>
+                </ResourceDictionary>
+            </Grid.Resources>
+            
+            <Label/>
+            <Label Grid.Column="1" Style="{StaticResource kleinRot}"/>
+            <Label Grid.Row="1" Style="{StaticResource zentriertKleinRot}"/>
+            <Label Grid.Row="1" Grid.Column="1"  Style="{StaticResource blauZentriert}"/>
+            <Label Grid.Row="2" Style="{StaticResource orangeTitle}"/>
+            
+            <!--Device Style-->
+            <Label Grid.Row="2" Grid.Column="1" Style="{DynamicResource TitleStyle}" Text="TitleStyle"/>
+
+            <!--Dynamische Styles-->
+            <Label Grid.Row="3" Style="{DynamicResource dynamisch}"/>
+            <Label Grid.Row="3" Grid.Column="1" Style="{DynamicResource dynamischVererbt}"/>
+
+            <Button Text="Styles Ändern" Clicked="styleWechseln" Grid.Row="4" Grid.ColumnSpan="2"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

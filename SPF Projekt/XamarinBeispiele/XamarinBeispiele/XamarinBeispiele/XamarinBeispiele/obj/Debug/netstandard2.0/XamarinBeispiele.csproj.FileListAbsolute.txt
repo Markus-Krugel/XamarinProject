@@ -1,0 +1,85 @@
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.csprojResolveAssemblyReference.cache
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.csproj.CoreCompileInputs.cache
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.App.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.MainPage.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.AssemblyInfoInputs.cache
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.AssemblyInfo.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.dll
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.pdb
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.deps.json
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.dll
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.pdb
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.NavigationsMenue.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.GestureRecognizer.BSP_GestureRecognizer.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_AbsuluteLayout.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_Grid.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_RelativeLayout.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_ScrollView.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_StackLayout.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.MVVM.BSP_MVVM.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.BSP_CarouselPage.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.BSP_TabbedPage.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPage.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPageDetail.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPageMaster.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_DataBinding.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_Styles.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_Triggers.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_ActivityIndicator.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_BoxView.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Buttons.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_DatePicker.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Editor.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Entry.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Images.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Label.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_listView.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Picker.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_ProgressBar.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_SearchBar.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Stepper.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Switch.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_TableView.xaml.g.cs
+D:\Development\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Timepicker.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.deps.json
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.dll
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\bin\Debug\netstandard2.0\XamarinBeispiele.pdb
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.App.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.GestureRecognizer.BSP_GestureRecognizer.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_AbsuluteLayout.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_Grid.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_RelativeLayout.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_ScrollView.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Layouts.BSP_StackLayout.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.MainPage.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.MVVM.BSP_MVVM.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.NavigationsMenue.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.BSP_CarouselPage.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.BSP_TabbedPage.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPage.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPageDetail.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Pages.MasterDetailPage.BSP_MasterPageMaster.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_DataBinding.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_Styles.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Sonstiges.BSP_Triggers.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_ActivityIndicator.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_BoxView.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Buttons.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_DatePicker.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Editor.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Entry.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Images.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Label.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_listView.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Picker.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_ProgressBar.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_SearchBar.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Stepper.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Switch.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_TableView.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.Views.BSP_Timepicker.xaml.g.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.AssemblyInfoInputs.cache
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.AssemblyInfo.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.dll
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.pdb
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\obj\Debug\netstandard2.0\XamarinBeispiele.csprojAssemblyReference.cache

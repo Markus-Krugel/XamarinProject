@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinBeispiele;assembly=XamarinBeispiele"
+             x:Class="XamarinBeispiele.BSP_ListView">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ListView x:Name="listview" ItemsSource="{x:Static local:BSP_ListView.source}" IsGroupingEnabled="True" Margin="0,30,0,10" BackgroundColor="Gray" HorizontalOptions="Center">
+
+                <!--Kopfzeile wird erstellt-->
+                <ListView.Header>
+                    <Label HorizontalTextAlignment="Center" BackgroundColor="Wheat" FontSize="Large" Text="HEADER"/>
+                </ListView.Header>
+
+                <!--Vorlage für Kopfzeile der Gruppen wird erstellt-->
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label FontSize="Medium" BackgroundColor="LightGray" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Blue" Text="{Binding Ueberschrift}" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+
+                <!--Vorlage für die Items wird erstellt-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="Assets\LockScreenLogo.scale-125.png" TextColor="White" Text="{Binding Wert}" Detail="{Binding Detail}" DetailColor="LightGray"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <!--Fußzeile wird erstellt-->
+                <ListView.Footer>
+                    <Label HorizontalTextAlignment="Center" BackgroundColor="Wheat" Text="Das hier ist das Ende"/>
+                </ListView.Footer>
+                
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

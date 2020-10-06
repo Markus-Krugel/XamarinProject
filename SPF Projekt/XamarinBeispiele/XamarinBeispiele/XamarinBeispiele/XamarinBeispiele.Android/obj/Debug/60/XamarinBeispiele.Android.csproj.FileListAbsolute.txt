@@ -1,0 +1,9 @@
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\MonoAndroid,Version=v6.0.AssemblyAttributes.cs
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\build.props
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\adb.props
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\XamarinBeispiele.Android.csprojAssemblyReference.cache
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\resourcepaths.cache
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\resourcecache.stamp
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\res.flag
+C:\Users\Markus\Downloads\SPF Projekt-20200212T224101Z-001\SPF Projekt\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele\XamarinBeispiele.Android\obj\Debug\60\flata\compiled.flata

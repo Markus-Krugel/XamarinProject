@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_GestureRecognizer">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <AbsoluteLayout.GestureRecognizers>
+                <PanGestureRecognizer
+                            PanUpdated="Verschieben"/>
+                <PinchGestureRecognizer
+                            PinchUpdated="Skalieren"/>
+                <TapGestureRecognizer
+                                Tapped="FarbeWechseln"
+                                NumberOfTapsRequired="1" />
+                <TapGestureRecognizer
+                                Tapped="Zoom"
+                                NumberOfTapsRequired="2" />
+            </AbsoluteLayout.GestureRecognizers>
+            <Label Text="Einzelklick für Farbwechsel, Doppelklick für Zoom an/ausschalten, Ziehen für Verschieben, Zerren für Skalieren"/>
+            <BoxView x:Name="FarbBox" Color="Aquamarine" AbsoluteLayout.LayoutBounds="0.2,0.2,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

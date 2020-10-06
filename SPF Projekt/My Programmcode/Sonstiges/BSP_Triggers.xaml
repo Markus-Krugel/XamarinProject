@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+             <!--Erforderlich damit man mit local:... Klassen aufrufen kann-->
+<ContentPage xmlns:local="clr-namespace:XamarinBeispiele"
+             
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Triggers">
+   
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <!--Ein Trigger für alle Entries-->
+                <Style.Triggers>
+                    <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                        
+                        <Setter Property="TextColor" Value="Blue"/>
+
+                        <Trigger.EnterActions>
+                            <!--Ruft die Klasse "EntryFocusTriggerAction" auf 
+                                und setzt die Eigenschaft Farbe auf Gray-->
+                            <local:EntryFocusTriggerAction Farbe="Gray" />
+                        </Trigger.EnterActions>
+
+                        <Trigger.ExitActions>
+                            <!--Ruft die Klasse "EntryFocusTriggerAction" auf 
+                                und setzt die Eigenschaft Farbe auf DarkGray-->
+                            <local:EntryFocusTriggerAction Farbe="DarkGray" />
+                        </Trigger.ExitActions>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightGray" Margin="0,30,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Slider x:Name="slider" Minimum="0" Maximum="100">
+                <!--Wenn der Slider den Wert 100 hat wird die Größe des Sliders halbiert-->
+                <Slider.Triggers>
+                    <Trigger TargetType ="Slider" Property="Value" Value="100">
+                        <Setter Property="Scale" Value="0.5"/>
+                    </Trigger>
+                </Slider.Triggers>
+            </Slider>
+            <Label Grid.Column="1" BackgroundColor="White" Margin="5" Text="Eingabe ist in Ordnung" 
+                   VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+                <!--Bindet an den Value Wert des Sliders. Wenn dieser 100 erreicht
+                    wird ein neuer Text mit roter Farbe dargestellt-->
+                <Label.Triggers>
+                    <DataTrigger TargetType="Label"
+                     Binding="{Binding Source={x:Reference slider},
+                                       Path=Value}"
+                                       Value="100">
+                        <Setter Property="Text" Value="Zu hohe Eingabe" />
+                        <Setter Property="TextColor" Value="Red" />
+                    </DataTrigger>
+                </Label.Triggers>
+            </Label>
+
+            <Entry x:Name="Benutzer" Grid.Row="1" Placeholder="Gib 'Benutzer' ein"/> 
+            <Entry x:Name="Passwort" Grid.Row="1" Grid.Column="1" Placeholder="Gib 'Passwort' ein"/>
+
+            <Button Text="Weiter" Grid.Row="2" Grid.ColumnSpan="2" IsEnabled="False">
+                <Button.Triggers>
+                    <!--Wenn in den Entries "Benutzer" und "Passwort" steht, wird der Button enabled-->
+                    <MultiTrigger TargetType ="Button">
+                        <!--Die Bedingungen, die erfüllt werden müssen-->
+                        <MultiTrigger.Conditions>
+                            <BindingCondition Binding="{Binding Source={x:Reference Benutzer},
+                                Path=Text}"
+                              Value="Benutzer" />
+                            <BindingCondition Binding="{Binding Source={x:Reference Passwort},
+                                Path=Text}"
+                              Value="Passwort" />
+                        </MultiTrigger.Conditions>
+                        <!--Enabled den Button-->
+                        <Setter Property="IsEnabled" Value="True"/>
+                    </MultiTrigger>
+
+                    <!--Ruft die Klasse "ButtonClickTriggerAction" auf, wenn der Button geklickt wurde--> 
+                    <EventTrigger Event="Clicked">
+                        <local:ButtonClickTriggerAction />
+                    </EventTrigger>
+
+                    <!--Wenn der Button deaktiviert ist, Hintergrund Grau färben-->
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="False">
+                        <Setter Property="BackgroundColor" Value="Gray"/>
+                    </Trigger>
+
+                    <!--Wenn der Button aktiviert ist, Hintergrund Grau färben-->
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="True">
+                        <Setter Property="BackgroundColor" Value="Gray"/>
+                    </Trigger>
+                   
+                </Button.Triggers>
+            </Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

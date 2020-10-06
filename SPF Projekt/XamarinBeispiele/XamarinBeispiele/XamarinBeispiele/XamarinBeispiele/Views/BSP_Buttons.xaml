@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Buttons">
+    <ContentPage.Content>
+        <Grid Margin="0,20,0,0" Padding="5" BackgroundColor="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--Buttons mit veränderten Rahmen-->
+            <Button BorderColor="MediumOrchid" BorderRadius="10" BorderWidth="3" 
+                    Text="Radius: 10 und Width: 3" BackgroundColor="WhiteSmoke"/>
+            <Button BorderColor="Chartreuse" BorderRadius="4" BorderWidth="7" 
+                    Text="Radius: 4 und Width: 7" Grid.Column="1" BackgroundColor="WhiteSmoke"/>
+            
+            <!--Buttons mit verändertem Font-->
+            <Button FontAttributes="Bold" FontFamily="Arial" FontSize="Large"
+                    Text="Gross" TextColor="Aqua" BackgroundColor="WhiteSmoke" Grid.Row="1"/>
+            <Button FontAttributes="Italic" FontFamily="Georgia" FontSize="Small"
+                    Text="Klein" TextColor="DarkSlateBlue" BackgroundColor="WhiteSmoke" Grid.Row="1" Grid.Column="1"/>
+
+            <!--Button der Klicks mitzählt-->
+            <Button Text="Du hast 0 Mal diesen Knopf geklickt." Clicked="OnClicked" 
+                    BackgroundColor="WhiteSmoke" Grid.Row="2" Grid.Column="1"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

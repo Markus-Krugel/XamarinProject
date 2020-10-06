@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Picker">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <!--Picker erstellt-->
+            <Picker x:Name="Picker" BackgroundColor="LightGray" Margin="5,15,5,5">
+                <!--Items werden hinzugefügt-->
+                <Picker.Items>
+                    <x:String>Wert 1</x:String>
+                    <x:String>Wert 2</x:String>
+                    <x:String>Wert 3</x:String>
+                </Picker.Items>
+                <!--Erster Eintrag wird ausgewählt-->
+                <Picker.SelectedIndex> 0 </Picker.SelectedIndex>
+            </Picker>
+            
+            <Label Margin="5,70,0,0" HorizontalOptions="Center" BindingContext="{x:Reference Name=Picker}" Text="{Binding Path=SelectedIndex, StringFormat='Index: {0:N}'}"/>
+            <Label Margin="5,5,0,0" HorizontalOptions="Center" BindingContext="{x:Reference Name=Picker}" Text="{Binding Path=SelectedItem, StringFormat='Item: {0:N}'}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

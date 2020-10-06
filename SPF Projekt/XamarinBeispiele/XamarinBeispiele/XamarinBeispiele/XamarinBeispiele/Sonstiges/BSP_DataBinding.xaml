@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinBeispiele;assembly=XamarinBeispiele"
+             x:Class="XamarinBeispiele.BSP_DataBinding">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="BackgroundColor" Value="Gray" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+            
+            <!--Converter als Resourcen speichern-->
+            <local:ColorToDouble x:Key="colorToDouble" Momentan="Black"/>
+            <local:DoubletoRGBValue x:Key="DoubletoRGBValue"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="LightGray">
+            <BoxView x:Name="Box" BackgroundColor="Black" AbsoluteLayout.LayoutBounds="0.3,0.1,0.8,0.2" AbsoluteLayout.LayoutFlags="All"/>
+
+            <!--Die Text Value der Labels werden mit dem Value Property des entsprechenden Sliders verknüpft.
+                Dazwischen ist ein Converter, der die Zahlen zu einem richtigen RGB Wert verwandelt 
+                und anschließend mit einem StringFormat ausgegeben wird-->
+            <Label Text="{Binding Source =  {x:Reference rotSlider},
+                                            Path=Value,
+                                            Converter={StaticResource DoubletoRGBValue},
+                                            StringFormat = 'R : {0:d}'}"
+                   AbsoluteLayout.LayoutBounds="0.1,0.4,0.1,0.1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Label Text="{Binding Source =
+                                            {x:Reference grünSlider},
+                                            Path=Value,
+                                            Converter={StaticResource DoubletoRGBValue},
+                                            StringFormat = 'G : {0:d}'}"
+                   AbsoluteLayout.LayoutBounds="0.1,0.6,0.1,0.1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Label Text="{Binding Source =
+                                            {x:Reference blauSlider},
+                                            Path=Value,
+                                            Converter={StaticResource DoubletoRGBValue},
+                                            StringFormat = 'B : {0:d}'}"
+                   AbsoluteLayout.LayoutBounds="0.1,0.8,0.1,0.1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <!--Die Value Werte der Sliders werden mit der Background Property der BoxView verknüpft.
+            Dabei wird noch ein Converter übergeben, der noch ein Parameter bekommt für die Zuweisung des RGB Wertes-->
+            <Slider x:Name="rotSlider" Minimum="0" Maximum="1" Value="{Binding Source={x:Reference Box},
+                                                        Path=BackgroundColor,
+                                                        Converter={StaticResource colorToDouble},
+                                                        ConverterParameter=Rot}"
+                    AbsoluteLayout.LayoutBounds="0.4,0.4,0.5,0.1" AbsoluteLayout.LayoutFlags="All"/>
+            <Slider x:Name="grünSlider" Minimum="0" Maximum="1" Value="{Binding Source={x:Reference Box},
+                                                        Path=BackgroundColor,
+                                                        Converter={StaticResource colorToDouble},
+                                                        ConverterParameter=Grün}"
+                    AbsoluteLayout.LayoutBounds="0.4,0.6,0.5,0.1" AbsoluteLayout.LayoutFlags="All"/>
+            <Slider x:Name="blauSlider" Minimum="0" Maximum="1" Value="{Binding Source={x:Reference Box},
+
+                                                        Path=BackgroundColor,
+                                                        Converter={StaticResource colorToDouble},
+                                                        ConverterParameter=Blau}" 
+                    AbsoluteLayout.LayoutBounds="0.4,0.8,0.5,0.1" AbsoluteLayout.LayoutFlags="All"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

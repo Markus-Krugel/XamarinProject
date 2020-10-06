@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Editor">
+    <ContentPage.Content>
+        <!--<StackLayout>
+            <Editor x:Name="text"   Completed="Text_Completed"/>
+            <Button x:Name="reLogin"  Clicked="ReLogin_Clicked" IsEnabled="False" 
+                    Text="Wenn man mich Clickt enable Ich Username und Passwort wieder"></Button>
+            <Editor HeightRequest="70"/>
+            <Editor x:Name="troll" TextChanged="Troll_TextChanged" />
+        </StackLayout>-->
+    </ContentPage.Content>
+</ContentPage>

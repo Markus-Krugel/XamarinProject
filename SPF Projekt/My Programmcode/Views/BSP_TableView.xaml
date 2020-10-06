@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_TableView">
+    <ContentPage.Content>
+        <TableView Intent="Settings" BackgroundColor="LightGray">
+            <TableRoot>
+                <TableSection Title="Dies ist eine TableSection">
+                    <SwitchCell Text="Dies ist eine SwitchCell mit einem Label und einem Schalter." />
+                    <SwitchCell Text="Dies ist eine SwitchCell die an gestllt wurde" On="true" />
+                </TableSection>
+                
+                <TableSection Title="Überblick über Entrycell">
+                    <EntryCell  Text="Dies ist eine Entrycell mit einem Label und einem Entry." 
+                                LabelColor="DarkGreen" Label="Perfect Entrcell" />
+                    <EntryCell Label="Leeres Entry" Text=""  Placeholder="Wie auch beim Entry" />
+                </TableSection>
+                
+                <TableSection Title="Customize Cells for your own porpose">
+                    <ViewCell >
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="Images/Keyboard.png" />
+                            <Label Text="left"
+                                  TextColor="#f35e20" />
+                            <Label Text="right"
+                                  HorizontalOptions="EndAndExpand"
+                                  TextColor="#503026" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="Common Label Enty Image Cell SPF">
+                    <ViewCell >
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="SPF"
+                                  TextColor="#f35e20" />
+                            <Entry Placeholder="Ist die Eingabe durch Eintippen geschehen?"/>
+                            <Image Source="Images/Keyboard.png" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="V-G Progress">
+                    <ViewCell >
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="SPF"
+                                  TextColor="#f35e20" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>
+    
+  

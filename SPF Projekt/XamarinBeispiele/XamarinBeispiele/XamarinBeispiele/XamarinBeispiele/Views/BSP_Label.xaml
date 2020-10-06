@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Label">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labels" TargetType="Label">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightGray" Margin="0,30,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!--Label mit CharakterWrap-->
+            <Label Text="Hier wurde CharacterWrap verwendet" LineBreakMode="CharacterWrap" Style="{StaticResource labels}"/>
+            
+            <!--Label mit HeadTrunction-->
+            <Label Text="Hier wurde HeadTrunction verwendet" LineBreakMode="HeadTruncation" Style="{StaticResource labels}" Grid.Column="1"/>
+            
+            <!--Label mit MiddleTrunction-->
+            <Label Text="Hier wurde MiddleTruncation verwendet" LineBreakMode="MiddleTruncation" Style="{StaticResource labels}" Grid.Column="2"/>
+            
+            <!--Label mit NoWrap (Standard)-->
+            <Label Text="Hier wurde NoWrap verwendet" LineBreakMode="NoWrap" Style="{StaticResource labels}" Grid.Row="1"/>
+
+            <!--Label mit TailTruncation-->
+            <Label Text="Hier wurde TailTruncation verwendet" LineBreakMode="TailTruncation" Style="{StaticResource labels}" Grid.Row="1" Grid.Column="1"/>
+
+            <!--Label mit WordWrap-->
+            <Label Text="Hier wurde WordWrap verwendet" LineBreakMode="WordWrap" Style="{StaticResource labels}" Grid.Row="1" Grid.Column="2"/>
+            
+            <!--Label mit FormattedText-->
+            <Label Style="{StaticResource labels}" Grid.Row="2" Grid.Column="1">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="In Blau " ForegroundColor="Blue" />
+                        <Span Text="ist alles " />
+                        <Span Text="Schöner" FontAttributes="Bold" FontSize="Large" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

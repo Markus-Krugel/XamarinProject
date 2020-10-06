@@ -1,0 +1,163 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\landschaft.png" />
+    <None Remove="landschaft.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\landschaft.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="GestureRecognizer\BSP_GestureRecognizer.xaml.cs">
+      <DependentUpon>BSP_GestureRecognizer.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Layouts\BSP_AbsuluteLayout.xaml.cs">
+      <DependentUpon>BSP_AbsuluteLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Layouts\BSP_Grid.xaml.cs">
+      <DependentUpon>BSP_Grid.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Layouts\BSP_RelativeLayout.xaml.cs">
+      <DependentUpon>BSP_RelativeLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Layouts\BSP_ScrollView.xaml.cs">
+      <DependentUpon>BSP_ScrollView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Layouts\BSP_StackLayout.xaml.cs">
+      <DependentUpon>BSP_StackLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MVVM\BSP_MVVM.xaml.cs">
+      <DependentUpon>BSP_MVVM.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\BSP_CarouselPage.xaml.cs">
+      <DependentUpon>BSP_CarouselPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\BSP_TabbedPage.xaml.cs">
+      <DependentUpon>BSP_TabbedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MasterDetailPage\BSP_MasterPage.xaml.cs">
+      <DependentUpon>BSP_MasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MasterDetailPage\BSP_MasterPageDetail.xaml.cs">
+      <DependentUpon>BSP_MasterPageDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MasterDetailPage\BSP_MasterPageMaster.xaml.cs">
+      <DependentUpon>BSP_MasterPageMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Sonstiges\BSP_DataBinding.xaml.cs">
+      <DependentUpon>BSP_DataBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Sonstiges\BSP_Styles.xaml.cs">
+      <DependentUpon>BSP_Styles.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Sonstiges\BSP_Triggers.xaml.cs">
+      <DependentUpon>BSP_Triggers.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Buttons.xaml.cs">
+      <DependentUpon>BSP_Buttons.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_DatePicker.xaml.cs">
+      <DependentUpon>BSP_DatePicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_ActivityIndicator.xaml.cs">
+      <DependentUpon>BSP_ActivityIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_BoxView.xaml.cs">
+      <DependentUpon>BSP_BoxView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Editor.xaml.cs">
+      <DependentUpon>BSP_Editor.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Entry.xaml.cs">
+      <DependentUpon>BSP_Entry.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_ProgressBar.xaml.cs">
+      <DependentUpon>BSP_ProgressBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_SearchBar.xaml.cs">
+      <DependentUpon>BSP_SearchBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Stepper.xaml.cs">
+      <DependentUpon>BSP_Stepper.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_TableView.xaml.cs">
+      <DependentUpon>BSP_TableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Timepicker.xaml.cs">
+      <DependentUpon>BSP_Timepicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Images.xaml.cs">
+      <DependentUpon>BSP_Images.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Label.xaml.cs">
+      <DependentUpon>BSP_Label.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_listView.xaml.cs">
+      <DependentUpon>BSP_ListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Picker.xaml.cs">
+      <DependentUpon>BSP_Picker.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BSP_Switch.xaml.cs">
+      <DependentUpon>BSP_Switch.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="GestureRecognizer\BSP_GestureRecognizer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MVVM\BSP_MVVM.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NavigationsMenue.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Sonstiges\BSP_Triggers.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_Switch.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_Buttons.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Sonstiges\BSP_DataBinding.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_DatePicker.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_Images.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_Label.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_ListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BSP_Picker.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Sonstiges\BSP_Styles.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

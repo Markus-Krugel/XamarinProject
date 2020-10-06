@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_Entry">
+    <ContentPage.Content>
+        <!--<ScrollView>
+            <StackLayout>
+                <Entry x:Name="username" IsPassword="False" Placeholder="Ich bin kein Passwort"/>
+                <Entry x:Name="passwort" IsPassword="True"  Completed="Passwort_Completed"  
+                   Placeholder="Ich bin ein Passwort drücke 'Enter' nach Beendigung der Eingabe"/>
+                <Button x:Name="reLogin" Text="Wenn man mich Clickt enable Ich Username und Passwort wieder" 
+                    Clicked="ReLogin_Clicked" IsEnabled="False"></Button>
+                <Entry  Placeholder="Ich schreib von Links nach Rechts" HorizontalTextAlignment="Start"/>
+                <Entry  Placeholder="Ich schreib in der Mitte " HorizontalTextAlignment="Center"/>
+                <Entry  Placeholder="Ich schreib von Rechts nach Links " HorizontalTextAlignment="End"/>
+                <Entry x:Name="troll" Placeholder="Du kannst nichts in mich schreiben, da ich deine Eingabe lösche." 
+                   HorizontalTextAlignment="Start" TextChanged="Troll_TextChanged"/>
+            </StackLayout>
+        </ScrollView>-->
+    </ContentPage.Content>
+</ContentPage>

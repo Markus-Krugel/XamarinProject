@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_SearchBar"
+             BackgroundColor="LightGray">
+    <ContentPage.Content>
+        <!--<StackLayout Margin="5">
+            <SearchBar x:Name="SB1" Placeholder="SPF Suche" PlaceholderColor="LightGreen" CancelButtonColor="Green" 
+                       HorizontalTextAlignment="Center" SearchButtonPressed="SB1_SearchButtonPressed"  ></SearchBar>
+            <SearchBar Placeholder="Web Suche" PlaceholderColor="LightGray" CancelButtonColor="Gray" 
+                       HorizontalTextAlignment="Center"></SearchBar>
+            <SearchBar Placeholder="Die Suche" PlaceholderColor="LightGray" CancelButtonColor="Gray" Text="Die Suche" 
+                       TextColor="Green" FontAttributes="Bold" FontSize="Medium" HorizontalTextAlignment="Start"></SearchBar>
+        </StackLayout>-->
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.App">
+
+    <!--Style auf Application Level / Global Style-->
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="blauZentriert" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="VerticalOptions" Value ="CenterAndExpand" />
+                <Setter Property="HorizontalOptions" Value ="CenterAndExpand" />
+                <Setter Property="TextColor" Value="Blue" />
+                <Setter Property="Text" Value="Globaler Style"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

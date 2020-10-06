@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+             <!--Für die Verwendung von anderen Klassen-->
+<ContentPage xmlns:local="clr-namespace:XamarinBeispiele"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_MVVM">
+
+    <!--Den Converter als Resource speichern-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:lagerMengeToBoolConverter x:Key="lagerToBool"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <!--Hiermit binden wir die View an das ViewModel-->
+    <ContentPage.BindingContext>
+        <local:BSP_ViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="LightGray">
+            <Label Text="Wählen sie den Artikel, den sie bestellen wollen und deren Anzahl."
+                   BackgroundColor="Gray"
+                   AbsoluteLayout.LayoutBounds="0.5,0.1,0.6,0.2"
+                   AbsoluteLayout.LayoutFlags="All"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center">
+            </Label>
+
+            <!--Befüllen des Pickers, und binden des SelectedItem an
+                der Eigenschaft Gewaehlt-->
+            <Picker x:Name="picker" AbsoluteLayout.LayoutBounds="0.2,0.4,0.5,0.1"
+                    AbsoluteLayout.LayoutFlags="All"
+                    ItemsSource="{Binding Waren}"
+                    SelectedItem="{Binding Gewaehlt}"/>
+
+            <!--Binding an die Eigenschaft Lagermenge, mit anschließender Ausgabe-->
+            <Label AbsoluteLayout.LayoutBounds="0.9,0.425,0.3,0.15"
+                   AbsoluteLayout.LayoutFlags="All"
+                   Text="{Binding Lagermenge,
+                                  StringFormat='Lagermenge: {0}'}"/>
+
+            <Slider x:Name="slider" Maximum="100" Minimum="1" 
+                    AbsoluteLayout.LayoutBounds="0.5,0.6,0.4,0.1"
+                    AbsoluteLayout.LayoutFlags="All">
+            </Slider>
+
+            <!--Als Command wird der Command "bestellen" vom ViewModel verwendet
+                und der Slider wird als Parameter übergeben-->
+            <Button Text="Bestellen"
+                    AbsoluteLayout.LayoutBounds="0.5,0.8,0.6,0.2"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Command="{Binding bestellen}"
+                    CommandParameter="{x:Reference slider}">
+                <!--Wenn die Bestellmenge über der Lagermenge liegt, wird
+                    der Button disabled und der Text wird geändert-->
+                <Button.Triggers>
+                    <!--Converter gibt True wieder, wenn die Bestellmenge über
+                        der Lagermenge liegt-->
+                    <DataTrigger TargetType ="Button" 
+                                 Binding="{Binding Source={x:Reference slider},
+                                    Path=Value,
+                                    Converter={StaticResource lagerToBool},
+                                    Mode=OneWay,
+                                    ConverterParameter={x:Reference picker}}"
+                                 Value ="True">
+                        
+                        <Setter Property="IsEnabled" Value="False"/>
+                        <Setter Property="Text" Value="Unzureichende Lagermenge"/>
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

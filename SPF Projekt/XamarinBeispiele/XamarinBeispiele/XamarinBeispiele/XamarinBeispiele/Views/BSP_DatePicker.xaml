@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+                <!--Dieser xmlns:sys-Verweis ist wichtig-->
+<ContentPage xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_DatePicker">
+    <ContentPage.Content>
+        <StackLayout Margin="5,30,5,5" BackgroundColor="LightGray">
+            <DatePicker x:Name="zeit" Date="{x:Static sys:DateTime.Now}" TextColor="Blue" HorizontalOptions="Center">
+                <!--Mithilfe der FactoryMethod kann man Strings in ein Datum parsen-->
+                <DatePicker.MinimumDate>
+                    <sys:DateTime x:FactoryMethod="Parse">
+                        <x:Arguments>
+                            <x:String>Jan 1 2018</x:String>
+                        </x:Arguments>
+                    </sys:DateTime>
+                </DatePicker.MinimumDate>
+                <DatePicker.MaximumDate>
+                    <sys:DateTime x:FactoryMethod="Parse">
+                        <x:Arguments>
+                            <x:String>Dec 31 2020</x:String>
+                        </x:Arguments>
+                    </sys:DateTime>
+                </DatePicker.MaximumDate>
+            </DatePicker>
+            <Label Text="{Binding Source={x:Reference zeit}, Path=Date, StringFormat='Das gewählte Datum ist: {0:d}'}" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

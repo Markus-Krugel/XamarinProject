@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBeispiele.BSP_BoxView"
+             BackgroundColor="LightGray">
+    <ContentPage.Content>
+        <!--<Grid HorizontalOptions="Center" ColumnSpacing="5" RowSpacing="30" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" ></RowDefinition>
+                <RowDefinition Height="50" ></RowDefinition>
+                <RowDefinition Height="50" ></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" ></ColumnDefinition>
+                <ColumnDefinition Width="50" ></ColumnDefinition>
+                <ColumnDefinition Width="70" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <BoxView Color="CornflowerBlue" VerticalOptions="Fill" HorizontalOptions="Fill"
+                     Grid.Column="0" Grid.Row="0"/>
+            <BoxView Color="Firebrick"      VerticalOptions="Fill" HorizontalOptions="Fill"         
+                     Grid.Column="1" Grid.Row="0" />
+            <BoxView Color="White"          VerticalOptions="Fill" HorizontalOptions="Center"      
+                     Grid.Column="2" Grid.Row="0" Grid.RowSpan="3" WidthRequest="2"/>
+            <BoxView Color="Crimson"        VerticalOptions="Fill" HorizontalOptions="Center"      
+                     Grid.Column="0" Grid.Row="1" WidthRequest="20" HeightRequest="2"/>
+            <BoxView Color="Yellow"         VerticalOptions="Center" HorizontalOptions="Center"   
+                     Grid.Column="1" Grid.Row="1" WidthRequest="20" HeightRequest="2"/>
+            <BoxView Color="Crimson"        VerticalOptions="Center" HorizontalOptions="Center"
+                     Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"/>
+        </Grid>-->
+                 
+    </ContentPage.Content>
+</ContentPage>
